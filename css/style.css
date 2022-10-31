@@ -1,0 +1,45 @@
+
+.map1, .map2{
+    width: 50%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.google-map{
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .row.no-pad {
+        flex-direction: column;
+    }
+    .map1, .map2 {
+        width: 98%;
+    }
+}
+
+.img2 {
+    position: relative;
+    top: -13px;
+    width: 50%;
+}
+
+.img3{
+    position: relative;
+    top: -14px;
+    width: 70%;
+}
+
+
+.img4 {
+    position: relative;
+    top: -8px;
+    width: 79%;
+}
+
+.img5 {
+    position: relative;
+    top: -18px;
+    width: 53%;
+}
